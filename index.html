@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História dos Sistemas Operacionais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Linha do Tempo dos Sistemas Operacionais</h1>
+    </header>
+    <main>
+        <div class="timeline">
+            <div class="timeline-item" onclick="showPopup(event, 'Mainframe', '')">Mainframe
+                <div class="timeline-item" onclick="showPopup(event, 'OS/360', 'Sistema operacional desenvolvido pela IBM para a família de mainframes System/360.')">OS/360
+                    <div class="timeline-item" onclick="showPopup(event, 'GM-NAA I/O', 'Um dos primeiros sistemas operacionais, desenvolvido para o IBM 704.')">GM-NAA I/O</div>
+                    <div class="timeline-item" onclick="showPopup(event, 'CTSS', 'Desenvolvido no MIT, um dos primeiros sistemas de tempo compartilhado.')">CTSS
+                        <div class="timeline-item" onclick="showPopup(event, 'Multics', 'Projeto influente do MIT, Bell Labs e GE, precursor de muitos conceitos usados em sistemas operacionais modernos.')">Multics
+                            <div class="timeline-item" onclick="showPopup(event, 'UNIX', 'Desenvolvido por Ken Thompson, Dennis Ritchie e outros nos Bell Labs, influenciou muitos sistemas operacionais modernos.')">UNIX
+                                <div class="timeline-item" onclick="showPopup(event, 'Xenix', 'Versão do UNIX licenciada pela Microsoft, foi amplamente utilizada em sistemas comerciais.')">Xenix</div>
+                                <div class="timeline-item" onclick="showPopup(event, 'QNX', 'Sistema operacional em tempo real utilizado em sistemas embarcados.')">QNX</div>
+                                <div class="timeline-item" onclick="showPopup(event, 'Plan 9', 'Desenvolvido pelos Bell Labs como sucessor do UNIX, focando em redes distribuídas.')">Plan 9
+                                    <div class="timeline-item" onclick="showPopup(event, 'Inferno', 'Desenvolvido pelos Bell Labs, baseado em princípios de Plan 9, focado em sistemas distribuídos e em rede.')">Inferno</div>
+                                </div>
+                                <div class="timeline-item" onclick="showPopup(event, 'Linux', 'Sistema operacional de código aberto criado por Linus Torvalds, baseado no UNIX.')">Linux
+                                    <div class="timeline-item" onclick="showPopup(event, 'Android', 'Sistema operacional móvel desenvolvido pela Google, baseado no kernel Linux.')">Android</div>
+                                </div>
+                                <div class="timeline-item" onclick="showPopup(event, 'Mac OS', 'Introduzido com o Apple Macintosh, com uma interface gráfica de usuário (GUI) inovadora.')">Mac OS
+                                    <div class="timeline-item" onclick="showPopup(event, 'Mac OS X', 'Baseado no NeXTSTEP, uniu a interface do Mac OS com um núcleo UNIX.')">Mac OS X
+                                        <div class="timeline-item" onclick="showPopup(event, 'iOS', 'Sistema operacional móvel da Apple para iPhone e iPad, baseado no Mac OS X.')">iOS</div>
+                                    </div>
+                                </div>
+                                <div class="timeline-item" onclick="showPopup(event, 'Haiku', 'Sistema operacional de código aberto inspirado no BeOS.')">Haiku</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item" onclick="showPopup(event, 'CP/M', 'Sistema operacional desenvolvido por Gary Kildall para microcomputadores, muito popular nos anos 70 e início dos 80.')">CP/M
+                        <div class="timeline-item" onclick="showPopup(event, 'DOS', 'Incluindo variantes como PC DOS e MS-DOS, dominou o mercado de computadores pessoais durante a década de 1980.')">DOS
+                            <div class="timeline-item" onclick="showPopup(event, 'MS-DOS', 'Uma das variantes mais populares do DOS.')">MS-DOS
+                                <div class="timeline-item" onclick="showPopup(event, 'Windows', 'Primeira versão do sistema operacional gráfico da Microsoft, uma extensão do MS-DOS.')">Windows
+                                    <div class="timeline-item" onclick="showPopup(event, 'Windows NT', 'Sistema operacional da Microsoft com arquitetura mais robusta e estável, voltada para ambientes corporativos.')">Windows NT
+                                        <div class="timeline-item" onclick="showPopup(event, 'Windows (moderno)', 'A versão atual e mais utilizada do sistema Windows.')">Windows (moderno)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item" onclick="showPopup(event, 'OS/2', '')">OS/2</div>
+                    </div>
+                    <div class="timeline-item" onclick="showPopup(event, 'BeOS', 'Sistema operacional focado em multimídia, desenvolvido pela Be Inc.')">BeOS</div>
+                    <div class="timeline-item" onclick="showPopup(event, 'Chrome OS', 'Sistema operacional da Google baseado no Linux, focado em aplicativos web e usabilidade em chromebooks.')">Chrome OS</div>
+                    <div class="timeline-item" onclick="showPopup(event, 'FreeBSD', 'Sistema operacional derivado do BSD UNIX, conhecido pela sua performance e segurança.')">FreeBSD</div>
+                    <div class="timeline-item" onclick="showPopup(event, 'OpenBSD', 'Derivado do NetBSD, focado em segurança e precisão do código.')">OpenBSD</div>
+                    <div class="timeline-item" onclick="showPopup(event, 'NetBSD', 'Conhecido pela sua portabilidade e suporte a múltiplas arquiteturas de hardware.')">NetBSD</div>
+                    <div class="timeline-item" onclick="showPopup(event, 'Solaris', 'Desenvolvido pela Sun Microsystems, baseado no UNIX System V.')">Solaris</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 História dos Sistemas Operacionais. Todos os direitos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

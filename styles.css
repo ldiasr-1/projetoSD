@@ -1,0 +1,71 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do corpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Azul claro */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0074cc; /* Azul mais escuro */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Área principal */
+main {
+    flex: 1;
+    padding: 2rem;
+}
+
+/* Linha do tempo */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.timeline-item {
+    background-color: #ffffff;
+    border: 1px solid #0074cc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item:nth-child(even) {
+    background-color: #e6f2ff;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0074cc; /* Azul mais escuro */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.timeline-item {
+    cursor: pointer;
+    color: blue;
+}
+
+.timeline-item:hover {
+    text-decoration: underline;
+}
