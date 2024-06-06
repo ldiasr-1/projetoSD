@@ -1,1 +1,38 @@
 Discentes: Leonardo Dias, Rômulo Martins
+
+
+RITCHIE, D. M.; THOMPSON, K. The UNIX Time-Sharing System. Communications of the ACM, v. 17, n. 7, p. 365-375, 1974.
+
+SALUS, P. H. A Quarter Century of UNIX. Addison-Wesley, 1994.
+
+ZACHARY, G. P. Showstopper!: The Breakneck Race to Create Windows NT and the Next Generation at Microsoft. Free Press, 1994.
+
+MICROSOFT. Windows History. Disponível em: https://www.microsoft.com. Acesso em: 27 maio 2024.
+
+HERTZFELD, A. Revolution in the Valley: The Insanely Great Story of How the Mac Was Made. O'Reilly Media, 2004.
+
+APPLE INC. History of macOS. Disponível em: https://www.apple.com. Acesso em: 27 maio 2024.
+
+TORVALDS, L.; DIAMOND, D. Just for Fun: The Story of an Accidental Revolutionary. HarperBusiness, 2001.
+
+MOODY, G. Rebel Code: Linux and the Open Source Revolution. Perseus Books, 2001.
+
+G. G. The Operating System Handbook: IBM PC & Compatibles. Bantam Books, 1987.
+
+MICROSOFT. History of MS-DOS. Disponível em: https://www.microsoft.com. Acesso em: 27 maio 2024.
+
+BE INC. BeOS Bible. Peachpit Press, 1998.
+
+HAIKU PROJECT. About Haiku. Disponível em: https://www.haiku-os.org. Acesso em: 27 maio 2024.
+
+GOOGLE. History of Android. Disponível em: https://www.android.com. Acesso em: 27 maio 2024.
+
+APPLE INC. History of iOS. Disponível em: https://www.apple.com. Acesso em: 27 maio 2024.
+
+GOOGLE. History of Chrome OS. Disponível em: https://www.google.com/chromebook/chrome-os. Acesso em: 27 maio 2024.
+
+PIKE, R.; THOMPSON, K. The Use of Name Spaces in Plan 9. Bell Labs Technical Journal, 1995. Disponível em: https://www.bell-labs.com. Acesso em: 27 maio 2024.
+
+VITA NUOVA HOLDINGS. Inferno Programming. Disponível em: http://www.vitanuova.com/inferno/. Acesso em: 27 maio 2024.
+
+HARMAN, S. QNX: The Operating System for the 21st Century. Disponível em: https://www.qnx.com. Acesso em: 27 maio 2024.
